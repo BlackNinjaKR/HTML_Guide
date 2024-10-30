@@ -11,7 +11,6 @@
 <h5> Heading 5 </h5>
 <h6> Heading 6 </h6>
 ```
-![Output of the above code](https://i.imgur.com/2dIMm3l.png)
 
 3. HTML paragraphs are defined with the ```<p>``` tag
 
@@ -19,7 +18,6 @@
 <p> Paragraph1</p>
 <p> Paragraph2</p>
 ```
-![Output of the above code](https://i.imgur.com/orKiIaW.png)
 
 4. HTML links are defined with the ```<a>``` tag:
 
@@ -27,6 +25,9 @@
 <a href="https://github.com/BlackNinjaKR/HTML_Tutorial_withPics">This is a link</a>
 ```
 
-![Output of the above code](https://i.imgur.com/WcGN03W.png)
+5. HTML images are defined with the ```<img>``` tag.
+The source file ```(src)```, alternative text ```(alt)```, ```width```, and ```height``` are provided as attributes.
 
-5. 
+```html
+<img src="bird-thumbnail.jpg" alt="sample image" width="104" height="142">
+```
