@@ -1,7 +1,7 @@
 # HTML Tutorial
 
-1. All HTML documents must start with a document type declaration: <!DOCTYPE html>
-2. HTML headings are defined with the <h1> to <h6> tags.
+1. All HTML documents must start with a document type declaration: ```<!DOCTYPE html>```
+2. HTML headings are defined with the ```<h1>``` to ```<h6>``` tags.
 ```html
         <h1> Heading 1</h1>
         <h2> Heading 2</h2>
