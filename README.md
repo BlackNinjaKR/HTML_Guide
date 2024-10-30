@@ -188,3 +188,88 @@ The property is a CSS property. The value is a CSS value.
 <p>This is <sub>subscripted</sub> text.</p>
 <p>This is <sup>superscripted</sup> text.</p>
 ```
+
+19. The HTML `<blockquote>` element defines a section that is quoted from another source.
+
+```html
+<p>Here is a quote from WWF's website:</p>
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+For 60 years, WWF has worked to help people and nature thrive. As the world's leading conservation organization, WWF works in nearly 100 countries. At every level, we collaborate with people around the world to develop and deliver innovative solutions that protect communities, wildlife, and the places in which they live.
+</blockquote>
+```
+
+20. The HTML `<q>` tag defines a short quotation.
+
+```html
+<p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+```
+
+21. The HTML `<abbr>` tag defines an abbreviation or an acronym, like "HTML", "CSS", "Mr.", "Dr.", "ASAP", "ATM".
+
+```html
+<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+```
+
+22. The HTML `<address>` tag defines the contact information for the author/owner of a document or an article.
+
+```html
+<address>
+Written by John Doe.<br>
+Visit us at:<br>
+Example.com<br>
+Box 564, Disneyland<br>
+USA
+</address>
+```
+
+23. The HTML `<cite>` tag defines the title of a creative work (e.g. a book, a poem, a song, a movie, a painting, a sculpture, etc.).
+
+```html
+<p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+```
+
+24. The HTML `<bdo>` tag is used to override the current text direction.
+
+```html
+<bdo dir="rtl">This text will be written from right to left</bdo>
+```
+
+25. You can add comments to your HTML source by using the following syntax.
+
+```html
+<!-- Write your comments here -->
+```
+Note: Comments are not displayed by the browser, but they can help document your HTML source code.
+
+26. HTML supports 140 standard color-names and the following formats:
+    1. RGB (Red, Green, Blue)
+    2. HEX (Hexadecimal values)
+    3. HSL (Hue, Saturation, Lightness)
+
+27. To create a bookmark - first create the bookmark, then add a link to it.
+
+```html
+<h2 id="C4">Chapter 4</h2> <!-- Use the id attribute to create a bookmark -->
+<a href="#C4">Jump to Chapter 4</a> <!-- Add a link to the bookmark, from within the same page -->
+<a href="html_demo.html#C4">Jump to Chapter 4</a> <!-- Add a link to a bookmark on another page -->
+```
+
+28. The HTML `<map>` tag defines an image map. An image map is an image with clickable areas. The areas are defined with one or more `<area>` tags.
+
+```html
+<img src="image.jpg" alt="sample_image" usemap="#workmap">
+
+<map name="workmap">
+  <area shape="rect" coords="x11,y11,x12,y12" alt="location 1" href="location1.htm">
+  <area shape="rect" coords="x21,y21,x22,y22" alt="location 2" href="location2.htm">
+  <area shape="circle" coords="x,y,radius" alt="location 3" href="location3.htm">
+</map>
+
+<!-- rect = Rectangle -->
+<!-- circle = Circle -->
+<!-- poly = Polygon -->
+<!-- default = Entire region -->
+```
+The idea behind an image map is that you should be able to perform different actions depending on where in the image you click.
+
+To create an image map you need an image, and some HTML code that describes the clickable areas.
